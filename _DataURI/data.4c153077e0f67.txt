@@ -1,0 +1,1 @@
+chrome-extension://gbagmkohmhcjgbepncmehejaljoclpil/javascripts/mousetrap.min.js
