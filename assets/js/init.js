@@ -18,12 +18,12 @@ jQuery(document).ready(function() {
     elisc_tm_stickyy();
     elisc_tm_down();
     elisc_tm_location();
-    jQuery(window).load('body', function() {
-        elisc_tm_my_load();
-    });
     jQuery(window).on('resize', function() {
         elisc_tm_menu_closer();
     });
+    setTimeout(function() {
+        elisc_tm_preloader();
+    }, 500);
 });
 
 function elisc_tm_modalbox() {
@@ -234,7 +234,8 @@ function elisc_tm_modalbox_portfolio() {
 function elisc_tm_preloader() {
     "use strict";
     var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-    var preloader = $('#preloader');
+    var preloader = jQuery('#preloader');
+    
     if (!isMobile) {
         setTimeout(function() {
             preloader.addClass('preloaded');
@@ -245,14 +246,6 @@ function elisc_tm_preloader() {
     } else {
         preloader.remove();
     }
-}
-
-function elisc_tm_my_load() {
-    "use strict";
-    var speed = 500;
-    setTimeout(function() {
-        elisc_tm_preloader();
-    }, speed);
 }
 
 function elisc_tm_cursor() {
