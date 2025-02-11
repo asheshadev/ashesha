@@ -8,49 +8,49 @@
                                     <ul>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/1.png" alt />
+                                                <img src="assets/img/partners/1.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/2.png" alt />
+                                                <img src="assets/img/partners/2.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/3.png" alt />
+                                                <img src="assets/img/partners/3.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/4.png" alt />
+                                                <img src="assets/img/partners/4.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/5.png" alt />
+                                                <img src="assets/img/partners/5.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/6.png" alt />
+                                                <img src="assets/img/partners/6.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/7.png" alt />
+                                                <img src="assets/img/partners/7.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/8.png" alt />
+                                                <img src="assets/img/partners/8.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
@@ -75,7 +75,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/1.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/1.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>John Doe</h3>
@@ -89,7 +89,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/2.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/2.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>Keita Smith</h3>
@@ -103,7 +103,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/3.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/3.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>Alan Walker</h3>
@@ -138,18 +138,18 @@
                                             <div class="list">
                                                 <ul>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/1.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/1.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>April 12, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>April 12, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">12 unique examples of portfolio websites</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -168,18 +168,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/2.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/2.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>April 01, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>April 01, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">Dealing with spring allergy symptoms</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -198,18 +198,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/3.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/3.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>March 30, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>March 30, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">Why we should read fewer books</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -228,18 +228,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/4.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/4.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>March 15, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>March 15, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">Skills and tools for efficient web design</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -258,18 +258,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/5.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/5.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>Feb 20, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>Feb 20, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">How to use python for web scraping</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -288,18 +288,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/6.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/6.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>Feb 11, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>Feb 11, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">Best wireframe tools for web designers</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -318,18 +318,18 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <img class="popup_image" src="img/news/7.jpg" alt />
+                                                        <img class="popup_image" src="assets/img/news/7.jpg" alt />
                                                         <div class="list_inner">
                                                             <div class="info">
                                                                 <div class="meta">
-                                                                    <img class="svg" src="img/svg/calendar.svg" alt /> <span>Jan 31, 2023</span>
+                                                                    <img class="svg" src="assets/img/svg/calendar.svg" alt /> <span>Jan 31, 2023</span>
                                                                 </div>
                                                                 <div class="title">
                                                                     <h3><a href="#">Why we’re crazy about animations</a></h3>
                                                                 </div>
                                                             </div>
                                                             <div class="elisc_tm_read_more">
-                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="img/svg/rightArrow.svg" alt /></span></a>
+                                                                <a class="line_effect" href="#">Learn More<span><img class="svg" src="assets/img/svg/rightArrow.svg" alt /></span></a>
                                                             </div>
 
                                                             <div class="news_hidden_details">
@@ -366,49 +366,49 @@
                                     <ul>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/1.png" alt />
+                                                <img src="assets/img/partners/1.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/2.png" alt />
+                                                <img src="assets/img/partners/2.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/3.png" alt />
+                                                <img src="assets/img/partners/3.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/4.png" alt />
+                                                <img src="assets/img/partners/4.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/5.png" alt />
+                                                <img src="assets/img/partners/5.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/6.png" alt />
+                                                <img src="assets/img/partners/6.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/7.png" alt />
+                                                <img src="assets/img/partners/7.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="list_inner">
-                                                <img src="img/partners/8.png" alt />
+                                                <img src="assets/img/partners/8.png" alt />
                                                 <a class="elisc_tm_full_link" a href="#"></a>
                                             </div>
                                         </li>
@@ -433,7 +433,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/1.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/1.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>John Doe</h3>
@@ -447,7 +447,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/2.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/2.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>Keita Smith</h3>
@@ -461,7 +461,7 @@
                                                 </div>
                                                 <div class="short">
                                                     <div class="image">
-                                                        <div class="main" data-img-url="img/testimonials/3.jpg"></div>
+                                                        <div class="main" data-img-url="assets/img/testimonials/3.jpg"></div>
                                                     </div>
                                                     <div class="detail">
                                                         <h3>Alan Walker</h3>
@@ -502,9 +502,9 @@
                     <li>
                         <span class="first">Share</span>
                         <ul class="share">
-                            <li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt /></a></li>
-                            <li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt /></a></li>
-                            <li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt /></a>
+                            <li><a href="#"><img class="svg" src="assets/img/svg/social/facebook.svg" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="assets/img/svg/social/twitter.svg" alt /></a></li>
+                            <li><a href="#"><img class="svg" src="assets/img/svg/social/instagram.svg" alt /></a>
                             </li>
                         </ul>
                     </li>
@@ -516,24 +516,24 @@
                 <li>
                     <div class="list_inner">
                         <div class="my_image">
-                            <img src="img/thumbs/4-2.jpg" alt />
-                            <div class="main" data-img-url="img/portfolio/5.jpg"></div>
+                            <img src="assets/img/thumbs/4-2.jpg" alt />
+                            <div class="main" data-img-url="assets/img/portfolio/5.jpg"></div>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="list_inner">
                         <div class="my_image">
-                            <img src="img/thumbs/4-2.jpg" alt />
-                            <div class="main" data-img-url="img/portfolio/6.jpg"></div>
+                            <img src="assets/img/thumbs/4-2.jpg" alt />
+                            <div class="main" data-img-url="assets/img/portfolio/6.jpg"></div>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="list_inner">
                         <div class="my_image">
-                            <img src="img/thumbs/4-2.jpg" alt />
-                            <div class="main" data-img-url="img/portfolio/7.jpg"></div>
+                            <img src="assets/img/thumbs/4-2.jpg" alt />
+                            <div class="main" data-img-url="assets/img/portfolio/7.jpg"></div>
                         </div>
                     </div>
                 </li>
@@ -545,8 +545,8 @@
 <!-- <li>
                                             <div class="list_inner">
                                                 <div class="image">
-                                                    <img src="img/thumbs/31-36.jpg" alt />
-                                                    <div class="main" data-img-url="img/portfolio/4.jpg"></div>
+                                                    <img src="assets/img/thumbs/31-36.jpg" alt />
+                                                    <div class="main" data-img-url="assets/img/portfolio/4.jpg"></div>
                                                     <a class="elisc_tm_full_link portfolio_popup" href="#"></a>
                                                 </div>
                                                 <div class="details">
@@ -581,9 +581,9 @@
                                                                 <li>
                                                                     <span class="first">Share</span>
                                                                     <ul class="share">
-                                                                        <li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt /></a></li>
-                                                                        <li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt /></a></li>
-                                                                        <li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt /></a>
+                                                                        <li><a href="#"><img class="svg" src="assets/img/svg/social/facebook.svg" alt /></a></li>
+                                                                        <li><a href="#"><img class="svg" src="assets/img/svg/social/twitter.svg" alt /></a></li>
+                                                                        <li><a href="#"><img class="svg" src="assets/img/svg/social/instagram.svg" alt /></a>
                                                                         </li>
                                                                     </ul>
                                                                 </li>
@@ -595,24 +595,24 @@
                                                             <li>
                                                                 <div class="list_inner">
                                                                     <div class="my_image">
-                                                                        <img src="img/thumbs/4-2.jpg" alt />
-                                                                        <div class="main" data-img-url="img/portfolio/5.jpg"></div>
+                                                                        <img src="assets/img/thumbs/4-2.jpg" alt />
+                                                                        <div class="main" data-img-url="assets/img/portfolio/5.jpg"></div>
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="list_inner">
                                                                     <div class="my_image">
-                                                                        <img src="img/thumbs/4-2.jpg" alt />
-                                                                        <div class="main" data-img-url="img/portfolio/6.jpg"></div>
+                                                                        <img src="assets/img/thumbs/4-2.jpg" alt />
+                                                                        <div class="main" data-img-url="assets/img/portfolio/6.jpg"></div>
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="list_inner">
                                                                     <div class="my_image">
-                                                                        <img src="img/thumbs/4-2.jpg" alt />
-                                                                        <div class="main" data-img-url="img/portfolio/7.jpg"></div>
+                                                                        <img src="assets/img/thumbs/4-2.jpg" alt />
+                                                                        <div class="main" data-img-url="assets/img/portfolio/7.jpg"></div>
                                                                     </div>
                                                                 </div>
                                                             </li>

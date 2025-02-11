@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
 
 function elisc_tm_modalbox() {
     "use strict";
-    jQuery('.elisc_tm_all_wrap').prepend('<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img class="svg" src="assets/img/svg/close.svg" alt /></a></div><div class="description_wrap"></div></div></div>');
+    jQuery('.elisc_tm_all_wrap').prepend('<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img class="svg" src="assets/assets/img/svg/close.svg" alt /></a></div><div class="description_wrap"></div></div></div>');
 }
 
 function elisc_tm_movingbox() {
@@ -142,7 +142,7 @@ function elisc_tm_experience_popup() {
         var content = parent.find('.hidden_details').html();
         modalBox.addClass('opened');
         modalBox.find('.description_wrap').html(content);
-        modalBox.find('.descriptions').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + elImage + '"></div></div>');
+        modalBox.find('.descriptions').prepend('<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + elImage + '"></div></div>');
         elisc_tm_data_images();
         modalBox.find('.descriptions .top_image').after('<div class="infos"><div class="year"><span>' + year + '</span></div><div class="job"><span>' + place + '</span><h3>' + job + '</h3></div></div>');
         return false;
@@ -167,7 +167,7 @@ function elisc_tm_service_popup() {
         var content = parent.find('.hidden_details').html();
         modalBox.addClass('opened');
         modalBox.find('.description_wrap').html(content);
-        modalBox.find('.descriptions').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + elImage + '"></div></div>');
+        modalBox.find('.descriptions').prepend('<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + elImage + '"></div></div>');
         elisc_tm_data_images();
         modalBox.find('.descriptions .top_image').after('<div class="main_title"><h3>' + title + '</h3></div>');
         return false;
@@ -193,7 +193,7 @@ function elisc_tm_modalbox_news() {
         var title = parent.find('.title h3 a').text();
         modalBox.addClass('opened');
         modalBox.find('.description_wrap').html(content);
-        modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + image + '"></div></div>');
+        modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + image + '"></div></div>');
         modalBox.find('.news_popup_informations .image').after('<div class="details"><div class="meta">' + meta + '</div><div class="title"><h3>' + title + '</h3></div></div>');
         elisc_tm_data_images();
         return false;
@@ -224,7 +224,7 @@ function elisc_tm_modalbox_portfolio() {
         modalBox.find('.description_wrap').html(details);
         modalBox.find('.popup_details').prepend('<div class="top_image"><img src="' + image + '" alt="" style="width: ' + imageWidthPercentage + '%; height: ' + imageHeightPercentage + '%;" /><div class="main" data-img-url="' + image + '"></div></div>');
         // modalBox.find('.popup_details').prepend('<div class="top_image"><img src="' + image + '" alt="" style="height: ' + imageHeight + 'px; width: ' + imageWidth + 'px;" /><div class="main" data-img-url="' + image + '"></div></div>');
-        // modalBox.find('.popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + image + '"></div></div>');
+        // modalBox.find('.popup_details').prepend('<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' + image + '"></div></div>');
         // modalBox.find('.popup_details .top_image').after('<div class="portfolio_main_title"><span class="category">' + category + '</span><h3 class="title">' + title + '</h3></div>');
         elisc_tm_data_images();
         return false;
