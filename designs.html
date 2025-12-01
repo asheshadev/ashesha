@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Design Library · Ashesha Mali</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/img/about/portrait.png" />
+  </head>
+
+  <body class="designs-page">
+    <div class="designs_nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo/logo.png" alt="Ashesha logo" />
+        <span>Ashesha Mali</span>
+      </a>
+      <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="mailto:ashesha.me@gmail.com">Email</a>
+        <a class="cta" href="assets/ashesha_cv.pdf" target="_blank" download>
+          Download CV
+        </a>
+      </nav>
+    </div>
+
+    <main class="designs_main">
+      <section class="designs_hero">
+        <div class="hero_text">
+          <p class="eyebrow">Design Library</p>
+          <h1>Every pixel tells the story of a problem solved.</h1>
+          <p class="lede">
+            A curated, case-study inspired space where I document the process,
+            strategy, and craft behind the visuals I create. Explore UI systems,
+            brand identities, and marketing campaigns that blend intuition with
+            research-backed decisions.
+          </p>
+          <div class="hero_stats">
+            <div>
+              <h3>60+</h3>
+              <p>visual explorations</p>
+            </div>
+            <div>
+              <h3>12</h3>
+              <p>industries served</p>
+            </div>
+            <div>
+              <h3>08</h3>
+              <p>design tools mastered</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero_panel">
+          <p class="panel_label">Latest drop</p>
+          <div class="panel_body">
+            <img
+              src="assets/img/gallery/variation-dribble.png"
+              alt="Mobile design preview"
+            />
+            <div>
+              <h4>Wellness Mobile OS</h4>
+              <p>Modular UI kit for a habit-forming experience.</p>
+            </div>
+          </div>
+          <a class="panel_link" href="#designs-showcase">Jump to gallery</a>
+        </div>
+      </section>
+
+      <section class="designs_filters" aria-label="Filter designs">
+        <button class="is-active" type="button" data-filter="all">All</button>
+        <button type="button" data-filter="uiux">Product UI</button>
+        <button type="button" data-filter="branding">Branding</button>
+        <button type="button" data-filter="logo">Logo</button>
+        <button type="button" data-filter="marketing">Campaign</button>
+      </section>
+
+      <section class="designs_showcase" id="designs-showcase">
+        <div class="designs_grid">
+          <article
+            class="design_card is-selected"
+            data-category="uiux,branding"
+            data-design-id="nepalese-center"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/portfolio/nepalese-center.png')"
+              data-full="assets/img/portfolio/nepalese-center.png"
+              data-caption="Nepalese Center — Responsive website"
+            >
+              <span class="card_chip">Website</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Community · Responsive Web</p>
+              <h3>Nepalese Center</h3>
+              <p>
+                A clean, editorial layout that elevates the diaspora story while
+                keeping donation flows intuitive.
+              </p>
+              <div class="card_meta">
+                <span>2024</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Website · UI/UX</p>
+                <h2>Nepalese Center</h2>
+                <p>
+                  Reimagined an outdated non-profit website into a conversion
+                  ready storytelling platform. I paired serif typography with a
+                  confident cobalt palette to emphasize trust, added modular
+                  content blocks, and engineered a donation pathway that reduced
+                  friction on mobile.
+                </p>
+                <ul class="detail_list">
+                  <li>
+                    <span>Role</span>
+                    <span>Research · UX Architecture · Visual Design</span>
+                  </li>
+                  <li>
+                    <span>Tools</span>
+                    <span>Figma, Adobe XD, Webflow, Photoshop</span>
+                  </li>
+                  <li>
+                    <span>Deliverables</span>
+                    <span>Design system, responsive layouts, hero graphics</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/portfolio/nepalese-center.png"
+                    alt="Nepalese Center homepage mockup"
+                  />
+                  <img
+                    src="assets/img/gallery/website-page.png"
+                    alt="Inner page for Nepalese Center case study"
+                  />
+                </div>
+                <div class="detail_actions">
+                  <a
+                    href="https://nepalesecenter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live site
+                  </a>
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="uiux,branding"
+            data-design-id="eacademy"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/portfolio/eacademy.png')"
+              data-full="assets/img/portfolio/eacademy.png"
+              data-caption="Eacademy Nepal — Learning platform"
+            >
+              <span class="card_chip">Platform</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">EdTech · Learning</p>
+              <h3>Eacademy Nepal</h3>
+              <p>
+                Built a modular card system to simplify course discovery for
+                learners on any device.
+              </p>
+              <div class="card_meta">
+                <span>2023</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Platform · UI/UX</p>
+                <h2>Eacademy Nepal</h2>
+                <p>
+                  Designed a friendly, student-first experience with soft shadows
+                  and color-coded disciplines. The grid intelligently adapts from
+                  4 to 1 column, while micro-interactions hint at progression.
+                </p>
+                <ul class="detail_list">
+                  <li><span>Role</span><span>Lead Designer</span></li>
+                  <li>
+                    <span>Highlights</span>
+                    <span>Course chips, mentor spotlights, testimonial loop</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/portfolio/eacademy.png"
+                    alt="Eacademy Nepal landing page design"
+                  />
+                  <img
+                    src="assets/img/gallery/design.png"
+                    alt="Mobile app exploration for Eacademy"
+                  />
+                </div>
+                <div class="detail_actions">
+                  <a
+                    href="https://eacademynepal.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore live project
+                  </a>
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="uiux,marketing"
+            data-design-id="sms-sarara"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/portfolio/sms-sarara.png')"
+              data-full="assets/img/portfolio/sms-sarara.png"
+              data-caption="SMS Sarara — Admissions campaign"
+            >
+              <span class="card_chip">School</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Education · Campaign</p>
+              <h3>SMS Sarara</h3>
+              <p>
+                Crafted a bold onboarding experience to help parents understand
+                school culture in one scroll.
+              </p>
+              <div class="card_meta">
+                <span>2023</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Campaign · UI/UX</p>
+                <h2>SMS Sarara</h2>
+                <p>
+                  Mixed geometric photography masks with energetic gradients to
+                  speak to both parents and students. The admissions CTA is
+                  sticky without feeling aggressive.
+                </p>
+                <ul class="detail_list">
+                  <li><span>Role</span><span>Art Direction · UI · Copy</span></li>
+                  <li>
+                    <span>Impact</span>
+                    <span>+38% inquiry clicks within first month</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/portfolio/sms-sarara.png"
+                    alt="SMS Sarara landing mockup"
+                  />
+                  <img
+                    src="assets/img/gallery/register_rojgarisanjal.jpg"
+                    alt="Supporting poster for SMS Sarara"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="uiux,marketing"
+            data-design-id="everest-buddha"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/portfolio/everest-buddha.png')"
+              data-full="assets/img/portfolio/everest-buddha.png"
+              data-caption="Everest Buddha Treks — Immersive itinerary"
+            >
+              <span class="card_chip">Travel</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Adventure · Storytelling</p>
+              <h3>Everest Buddha Treks</h3>
+              <p>
+                Immersive itinerary builder with contextual imagery and progress
+                cues for trekkers.
+              </p>
+              <div class="card_meta">
+                <span>2022</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Travel · UI/UX</p>
+                <h2>Everest Buddha Treks</h2>
+                <p>
+                  Leveraged cinematic photography and warm neutrals to balance
+                  serenity with excitement. The trip planner uses timeline chips
+                  so users never lose context.
+                </p>
+                <ul class="detail_list">
+                  <li>
+                    <span>Deliverables</span>
+                    <span>Hero art direction, card components, booking modals</span>
+                  </li>
+                  <li>
+                    <span>Tools</span>
+                    <span>Figma · Illustrator · Lightroom</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/portfolio/everest-buddha.png"
+                    alt="Everest Buddha Trek desktop concept"
+                  />
+                  <img
+                    src="assets/img/gallery/covid-Rojgari.png"
+                    alt="Campaign banner for travel awareness"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="logo,branding"
+            data-design-id="bird-logo"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/gallery/bird-logo.png')"
+              data-full="assets/img/gallery/bird-logo.png"
+              data-caption="Hummingbird Mark — Logo system"
+            >
+              <span class="card_chip">Logo</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Symbol · Identity</p>
+              <h3>Hummingbird Mark</h3>
+              <p>
+                Lightweight emblem designed for a mindfulness startup focusing on
+                breath work.
+              </p>
+              <div class="card_meta">
+                <span>2022</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Logo · Branding</p>
+                <h2>Hummingbird Mark</h2>
+                <p>
+                  The negative space wing mirrors the shape of an inhale, while
+                  the beak forms an arrow suggesting forward motion. Built in
+                  Illustrator using a grid that keeps the logo fluid at tiny
+                  sizes.
+                </p>
+                <ul class="detail_list">
+                  <li>
+                    <span>Deliverables</span>
+                    <span>Logo suite, usage guide, favicon set</span>
+                  </li>
+                  <li><span>Color</span><span>Slate 900 · Sunrise Peach</span></li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/gallery/bird-logo.png"
+                    alt="Bird logo exploration"
+                  />
+                  <img
+                    src="assets/img/gallery/jdmc-bird.png"
+                    alt="Logo applied on brand collateral"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="marketing"
+            data-design-id="chocolate-packaging"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/gallery/chocolate.jpg')"
+              data-full="assets/img/gallery/chocolate.jpg"
+              data-caption="Cocoa Bloom — Packaging concept"
+            >
+              <span class="card_chip">Campaign</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Packaging · Digital Ads</p>
+              <h3>Cocoa Bloom</h3>
+              <p>
+                A playful limited-edition chocolate campaign mixing 3D renders
+                with typography.
+              </p>
+              <div class="card_meta">
+                <span>2021</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Campaign · Packaging</p>
+                <h2>Cocoa Bloom</h2>
+                <p>
+                  Built a flexible system for banners, unboxing inserts, and IG
+                  stories. The hero illustration uses gradient meshes to feel
+                  luscious and premium.
+                </p>
+                <ul class="detail_list">
+                  <li>
+                    <span>Role</span>
+                    <span>Art Direction · Mockups · Copy Support</span>
+                  </li>
+                  <li>
+                    <span>Tools</span>
+                    <span>Illustrator · Photoshop · Dimension</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/gallery/chocolate.jpg"
+                    alt="Chocolate packaging flatlay"
+                  />
+                  <img
+                    src="assets/img/gallery/store-box.png"
+                    alt="Retail box mockup"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="logo,branding"
+            data-design-id="jeep-logo"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/gallery/jeep-logo.png')"
+              data-full="assets/img/gallery/jeep-logo.png"
+              data-caption="Jeep Club Identity — Badge"
+            >
+              <span class="card_chip">Logo</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">Adventure · Monogram</p>
+              <h3>Jeep Club Identity</h3>
+              <p>
+                Minimal mark combining mountains and a route pin for an off-road
+                community.
+              </p>
+              <div class="card_meta">
+                <span>2021</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Logo · Badge</p>
+                <h2>Jeep Club Identity</h2>
+                <p>
+                  Constructed with two overlapping triangles to symbolize ascent.
+                  The logotype uses a condensed grotesk for ruggedness.
+                </p>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/gallery/jeep-logo.png"
+                    alt="Jeep club logo badge"
+                  />
+                  <img
+                    src="assets/img/gallery/rojgari-job.jpeg"
+                    alt="Logo embossed on fabric patch"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+
+          <article
+            class="design_card"
+            data-category="uiux"
+            data-design-id="mobile-wellness"
+          >
+            <div
+              class="card_media"
+              style="background-image: url('assets/img/gallery/dribble.webp')"
+              data-full="assets/img/gallery/dribble.webp"
+              data-caption="Wellness Mobile OS — UI exploration"
+            >
+              <span class="card_chip">Mobile</span>
+            </div>
+            <div class="card_body">
+              <p class="card_tags">iOS · Product UI</p>
+              <h3>Wellness Mobile OS</h3>
+              <p>
+                Micro-interaction study focused on habit formation and streak
+                celebration moments.
+              </p>
+              <div class="card_meta">
+                <span>2020</span>
+                <button type="button" class="card_button">
+                  View story
+                </button>
+              </div>
+            </div>
+            <template>
+              <div class="detail_header">
+                <p class="detail_chip">Mobile · UI</p>
+                <h2>Wellness Mobile OS</h2>
+                <p>
+                  Designed a modular card system with tactile shadows. Each card
+                  animates using spring physics to match the calm breathing pace.
+                </p>
+                <ul class="detail_list">
+                  <li>
+                    <span>Focus</span>
+                    <span>Micro-interactions, haptics, typography scale</span>
+                  </li>
+                </ul>
+                <div class="detail_gallery">
+                  <img
+                    src="assets/img/gallery/dribble.webp"
+                    alt="Wellness mobile UI concept"
+                  />
+                  <img
+                    src="assets/img/gallery/dribble-img.png"
+                    alt="Dark mode variation"
+                  />
+                </div>
+              </div>
+            </template>
+          </article>
+        </div>
+
+        <aside class="design_detail_panel" data-detail-panel>
+          <div class="detail_header">
+            <p class="detail_chip">Select a project</p>
+            <h2>Deep dives &amp; context</h2>
+            <p>
+              Tap any card to see the story, role, and deliverables behind the
+              visuals. Each project includes process notes, design systems, and
+              quick stats so recruiters can evaluate impact fast.
+            </p>
+            <ul class="detail_list">
+              <li><span>Deliverables</span><span>Case narratives</span></li>
+              <li><span>Format</span><span>UX + Brand + Campaign</span></li>
+            </ul>
+            <img
+              src="assets/img/gallery/variation-dribble.png"
+              alt="Design board collage"
+              class="detail_placeholder"
+            />
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <div class="design_lightbox" data-lightbox aria-hidden="true">
+      <div class="lightbox_inner">
+        <button type="button" class="lightbox_close" data-lightbox-close aria-label="Close image">
+          &times;
+        </button>
+        <img src="" alt="Expanded design preview" />
+        <p class="lightbox_caption"></p>
+      </div>
+    </div>
+
+    <script src="assets/js/designs.js"></script>
+  </body>
+</html>
+

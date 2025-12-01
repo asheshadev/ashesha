@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gallery Vault · Ashesha Mali</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/img/about/portrait.png" />
+  </head>
+
+  <body class="gallery-page">
+    <div class="designs_nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo/logo.png" alt="Ashesha logo" />
+        <span>Ashesha Mali</span>
+      </a>
+      <nav>
+        <a href="index.html#home">Home</a>
+        <a href="designs.html">Design Library</a>
+        <a href="index.html#gallery">Inline Gallery</a>
+        <a href="mailto:ashesha.me@gmail.com">Email</a>
+        <a class="cta" href="assets/ashesha_cv.pdf" target="_blank" download>
+          Download CV
+        </a>
+      </nav>
+    </div>
+
+    <main class="gallery_main">
+      <section class="gallery_hero">
+        <div class="hero_copy">
+          <p class="eyebrow">Gallery Vault</p>
+          <h1>Zoom into the craft.</h1>
+          <p class="lede">
+            A full-screen showcase of logos, UI moments, and promo visuals. Each
+            tile expands into a high-resolution preview so art directors can
+            inspect texture, typography, and layout polish without leaving the
+            page.
+          </p>
+          <div class="hero_meta">
+            <div>
+              <h3>18</h3>
+              <p>featured frames</p>
+            </div>
+            <div>
+              <h3>4</h3>
+              <p>disciplines</p>
+            </div>
+            <div>
+              <h3>100%</h3>
+              <p>original work</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero_reel">
+          <div class="hero_reel_inner">
+            <img src="assets/img/gallery/dribble-img.png" alt="UI reel preview" />
+            <img src="assets/img/gallery/bird-logo.png" alt="Logo reel preview" />
+            <img src="assets/img/gallery/chocolate.jpg" alt="Packaging preview" />
+          </div>
+          <span>Swipe-ready snapshots</span>
+        </div>
+      </section>
+
+      <section class="designs_filters" aria-label="Filter gallery items">
+        <button class="is-active" type="button" data-filter="all">All</button>
+        <button type="button" data-filter="uiux">UI/UX</button>
+        <button type="button" data-filter="branding">Branding</button>
+        <button type="button" data-filter="logo">Logo</button>
+        <button type="button" data-filter="print">Print</button>
+      </section>
+
+      <section class="gallery_grid" data-gallery-grid>
+        <article
+          class="gallery_tile"
+          data-gallery-item
+          data-category="uiux,branding"
+        >
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/website-page.png')"
+            data-full="assets/img/gallery/website-page.png"
+            data-caption="Responsive web storytelling for Nepalese Center"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">UI · Responsive</p>
+            <h3>Nepalese Center inner page</h3>
+            <p>Editorial grid with overlapping photography and calm whitespace.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="logo">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/bird-logo.png')"
+            data-full="assets/img/gallery/bird-logo.png"
+            data-caption="Hummingbird logomark exploration"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Logo · Symbol</p>
+            <h3>Hummingbird identity</h3>
+            <p>Negative-space wing detail built on a dynamic 2:1 grid.</p>
+          </div>
+        </article>
+
+        <article
+          class="gallery_tile"
+          data-gallery-item
+          data-category="branding,print"
+        >
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/chocolate.jpg')"
+            data-full="assets/img/gallery/chocolate.jpg"
+            data-caption="Cocoa Bloom limited-edition packaging"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Packaging · Campaign</p>
+            <h3>Cocoa Bloom wrap</h3>
+            <p>Gradient mesh chocolate swirls meet bold serif typography.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="print">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/store-box.png')"
+            data-full="assets/img/gallery/store-box.png"
+            data-caption="Retail box visualization"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Mockup · Print</p>
+            <h3>Store box layout</h3>
+            <p>Foil stamping preview with modular typography system.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/promotion.png')"
+            data-full="assets/img/gallery/promotion.png"
+            data-caption="Promo card concept"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Branding · Social</p>
+            <h3>Promo burst</h3>
+            <p>High-impact CTA layout balancing neon palette with serif type.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="logo">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/jeep-logo.png')"
+            data-full="assets/img/gallery/jeep-logo.png"
+            data-caption="Jeep club badge concept"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Logo · Badge</p>
+            <h3>Off-road crest</h3>
+            <p>Contrasting mountains and map pins inside a minimal shield.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="logo">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/jdmc-bird.png')"
+            data-full="assets/img/gallery/jdmc-bird.png"
+            data-caption="Bird emblem embossed patch"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Logo · Application</p>
+            <h3>Textured embroidery</h3>
+            <p>How the bird symbol scales on tactile surfaces.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="uiux">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/dribble.webp')"
+            data-full="assets/img/gallery/dribble.webp"
+            data-caption="Wellness mobile OS screens"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Mobile · UI</p>
+            <h3>Wellness OS</h3>
+            <p>Micro-interaction exploration with velvet gradients.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="uiux">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/dribble-img.png')"
+            data-full="assets/img/gallery/dribble-img.png"
+            data-caption="Dark mode variation of mobile flow"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Mobile · Dark Mode</p>
+            <h3>Night mode cards</h3>
+            <p>High-contrast treatment with focus on accessibility ratios.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/variation-dribble.png')"
+            data-full="assets/img/gallery/variation-dribble.png"
+            data-caption="Carousel of lifestyle cards"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Branding · Carousel</p>
+            <h3>Card carousel</h3>
+            <p>Stacked perspective cards used across social teaser drops.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="print">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/register_rojgarisanjal.jpg')"
+            data-full="assets/img/gallery/register_rojgarisanjal.jpg"
+            data-caption="Registration campaign poster"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Poster · Campaign</p>
+            <h3>Rojgari Sanjal poster</h3>
+            <p>Layered texture overlays to highlight urgent messaging.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="print">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/rojal-1.png')"
+            data-full="assets/img/gallery/rojal-1.png"
+            data-caption="Editorial spread for publication"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Editorial · Print</p>
+            <h3>Magazine spread</h3>
+            <p>Typographic rhythm mixing condensed headings with serif body.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/rojgari-job.jpeg')"
+            data-full="assets/img/gallery/rojgari-job.jpeg"
+            data-caption="Hiring announcement visual"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Branding · Announcement</p>
+            <h3>Job blast</h3>
+            <p>Warm gradients and bold numbering to drive referral clicks.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/promotion.png')"
+            data-full="assets/img/gallery/promotion.png"
+            data-caption="Promotional graphic"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Promo · Digital</p>
+            <h3>Promo gradient</h3>
+            <p>Electric background with floating CTA chip.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/covid-Rojgari.png')"
+            data-full="assets/img/gallery/covid-Rojgari.png"
+            data-caption="Awareness social tile"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Awareness · Digital</p>
+            <h3>Covid PSA</h3>
+            <p>Illustrative storytelling for community outreach.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="branding">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/design.png')"
+            data-full="assets/img/gallery/design.png"
+            data-caption="Mobile onboarding walkthrough"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">Branding · UI</p>
+            <h3>Onboarding flow</h3>
+            <p>Stacked cards showing multi-step sign-up engagement.</p>
+          </div>
+        </article>
+
+        <article class="gallery_tile" data-gallery-item data-category="uiux">
+          <div
+            class="tile_media"
+            style="background-image: url('assets/img/gallery/dribble.webp')"
+            data-full="assets/img/gallery/dribble.webp"
+            data-caption="Product mockup"
+          ></div>
+          <div class="tile_body">
+            <p class="tile_tags">UI · System</p>
+            <h3>Habit tracker</h3>
+            <p>Repeating card modules emphasizing clarity over clutter.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div class="design_lightbox" data-lightbox aria-hidden="true">
+      <div class="lightbox_inner">
+        <button type="button" class="lightbox_close" data-lightbox-close aria-label="Close image">
+          &times;
+        </button>
+        <img src="" alt="Expanded gallery preview" />
+        <p class="lightbox_caption"></p>
+      </div>
+    </div>
+
+    <script src="assets/js/gallery.js"></script>
+  </body>
+</html>
+
