@@ -4074,3 +4074,172 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 15px;
   }
 }
+
+/* ---------- Gallery readability & polish overrides ---------- */
+/* Place at the end of assets/css/style.css */
+
+/* Variables if you want to reuse */
+:root {
+  --card-bg: #0f1112;           /* dark card background */
+  --card-elev: rgba(0,0,0,0.45);
+  --text-primary-light: #f4f6fb; /* titles */
+  --text-muted: rgba(244,246,251,0.68);
+  --accent: #6b5cff; /* optional accent */
+  --pill-bg: rgba(255,255,255,0.04);
+}
+
+/* tile card base adjustments */
+.gallery_tile {
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.25));
+  box-shadow: 0 6px 18px rgba(3,6,10,0.45);
+  transition: transform 240ms cubic-bezier(.2,.9,.3,1), box-shadow 240ms, border-color 180ms;
+  will-change: transform;
+}
+
+/* media area smoothing and aspect handling */
+.tile_media {
+  background-size: cover !important;
+  background-position: center center !important;
+  min-height: 180px;
+  display: block;
+  transition: transform 300ms ease, filter 300ms ease;
+  filter: brightness(0.98) saturate(0.95);
+}
+
+/* tile body (where tags, title, description live) */
+.tile_body {
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(10,12,14,0.75), rgba(10,12,14,0.9));
+  color: var(--text-muted);
+}
+
+/* tags (small uppercase) */
+.tile_tags {
+  display: inline-block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(255,255,255,0.56); /* muted but readable */
+  margin-bottom: 10px;
+}
+
+/* Title: force a readable light color and slightly heavier weight */
+.tile_body h3,
+.tile_body h3 a {
+  color: var(--text-primary-light) !important; /* fixes blue/incorrect color */
+  font-weight: 700;
+  font-size: 20px;
+  margin: 6px 0 12px;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+/* description / lead text */
+.tile_body p {
+  color: rgba(244,246,251,0.80);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.98;
+}
+
+/* subtle rounded corners on the bottom area to match tile */
+.gallery_tile .tile_body {
+  border-top: 1px solid rgba(255,255,255,0.03);
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+/* hover interactions */
+.gallery_tile:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(6,8,12,0.6);
+}
+.gallery_tile:hover .tile_media {
+  transform: scale(1.03);
+  filter: brightness(1.08) saturate(1.06);
+}
+
+/* ensure tiles that are links don't show default blue */
+.gallery_tile a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* hidden state for filtering (smooth) */
+.gallery_tile.is-hidden {
+  opacity: 0;
+  transform: scale(0.98);
+  pointer-events: none;
+}
+
+/* filter pills improvements */
+.designs_filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.designs_filters button {
+  background: var(--pill-bg);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.8);
+  padding: 10px 16px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 160ms, box-shadow 160ms, background 160ms;
+}
+
+/* active pill */
+.designs_filters button.is-active {
+  background: linear-gradient(135deg, rgba(107,92,255,0.16), rgba(107,92,255,0.06));
+  box-shadow: 0 6px 18px rgba(103,80,255,0.12);
+  color: var(--text-primary-light);
+  transform: translateY(-2px);
+  border: 1px solid rgba(107,92,255,0.28);
+}
+
+/* pill focus for keyboard users */
+.designs_filters button:focus {
+  outline: 3px solid rgba(107,92,255,0.14);
+  outline-offset: 4px;
+}
+
+/* responsive tweaks for small screens */
+@media (max-width: 900px) {
+  .tile_media { min-height: 150px; }
+  .tile_body { padding: 16px; }
+  .tile_body h3 { font-size: 18px; }
+}
+
+/* Accessibility: ensure contrast between title and background */
+@media (prefers-contrast: more) {
+  .tile_body h3 { color: #ffffff !important; text-shadow: 0 1px 0 rgba(0,0,0,0.6); }
+  .tile_body p, .tile_tags { color: #f7f7f7; }
+}
+
+/* Optional: Add a soft divider under the tag area */
+.tile_tags + h3 {
+  margin-top: 8px;
+}
+
+/* If you are still seeing blue titles - force anchor color inside tile body specifically */
+.tile_body a {
+  color: var(--text-primary-light) !important;
+}
+
+/* Tiny nicety: smooth image loading flash reduction */
+.tile_media::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0));
+  margin-top: -2px;
+  opacity: 0.6;
+}
+
